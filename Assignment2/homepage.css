@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to right, rgb(124, 19, 71), rgb(1, 1, 57));
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.bar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 100px;
+}
+
+h5 {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 5px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+
+.card1 {
+    background-image: url(images/1.png);
+}
+
+.card2 {
+    background-image: url(images/2.png);
+}
+
+.card3 {
+    background-image: url(images/3.png);
+}
+
+.card4 {
+    background-image: url(images/4.png);
+}
+
+.card5 {
+    background-image: url(images/5.png);
+}
+
+.card6 {
+    background-image: url(images/6.png);
+}
+
+.card7 {
+    background-image: url(images/7.png);
+}
+
+.card8 {
+    background-image: url(images/8.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card p {
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+}

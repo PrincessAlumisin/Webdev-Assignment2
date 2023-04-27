@@ -1,0 +1,166 @@
+body {
+    background-image: linear-gradient(to right, rgb(124, 19, 71), rgb(1, 1, 57));
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-container {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 10px;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 800px) {
+    .grid-container, .grid-items{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box-width {
+    height: 50px;
+    width: 100px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box-height {
+    height: 100px;
+    width: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.title-container {
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.flexbox-container {
+    padding: 15px;
+    display: flex;
+    height: 450px;
+    width: 500px;
+    background-color: #fefffe;
+    border-radius: 10px;
+    box-shadow: 3px 3px #b9afbe;
+}
+
+.flexbox-items {
+    padding: 10px;
+    display: flex;
+    width: 450px;
+    gap: 10px;
+    background-color: #fefffe;
+    border-radius: 10px;
+    box-shadow: 3px 3px #b9afbe;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.flexbox1 {
+    background-color: red;
+}
+
+.flexbox2 {
+    background-color: blue;
+}
+
+.flexbox3 {
+    background-color: purple;
+}
+
+.flexbox4 {
+    background-color: green;
+}
+
+.flexbox5 {
+    background-color: orange;
+}
+
+.flexbox6 {
+    background-color: red;
+}
+
+.flexbox7 {
+    background-color: blue;
+}
+
+.flexbox8 {
+    background-color: purple;
+}
+
+.flexbox9 {
+    background-color: green;
+}
+
+.flexbox10 {
+    background-color: orange;
+}
+
+.flexbox11 {
+    background-color: red;
+}
+
+.flexbox12 {
+    background-color: blue;
+}

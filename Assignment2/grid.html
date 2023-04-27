@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="wide=device-width, initial-scale=1.0">
+        <title>CSS GRID</title>
+        <link rel="stylesheet" href="grid.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <a href="homepage.html" class="logo-container">
+            <img src="images/home.png" class="home">
+        </a>
+        <div class="container">
+            <h1>GRID LAYOUT</h1>
+            <p>The CSS Grid Layout Module offers a grid-based layout system, 
+             with rows and columns, making it easier to design web pages without 
+             having to use floats and positioning.</p>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Grid Container</h2>
+                    <p>A grid container is an element that contains a grid of rows and columns.
+                        To create a grid container, you can use the display: grid property on the container
+                        element. Once you have set this property, you can define the number of rows and
+                        columns in the grid using the grid-template-rows and grid-template-columns
+                        properties. You can also set the gap between grid items using the grid-gap property.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <div class="grid-container">
+                        <div class="grid-item">1</div>
+                        <div class="grid-item">2</div>
+                        <div class="grid-item">3</div>
+                        <div class="grid-item">4</div>
+                        <div class="grid-item">5</div>
+                        <div class="grid-item">6</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>Grid Items</h2>
+                    <p>Grid items are the individual elements that are placed inside the grid container.
+                        These items can be any HTML element such as div, img, span, etc.
+                        To place a grid item inside the grid, you can use the grid-row and grid-column properties.
+                    </p>
+                </div>
+                <div class="col">
+                    <div class="grid-container2">
+                        <div class="grid-item2">Item 1</div>
+                        <div class="grid-item2">Item 2</div>
+                        <div class="grid-item2">Item 3</div>
+                        <div class="grid-item2">Item 4</div>
+                        <div class="grid-item2">Item 5</div>
+                        <div class="grid-item2">Item 6</div>
+                    </div>
+                </div>
+            </div>  
+            
+            <h2>Grid Properties</h2>
+                <p>CSS Grid provides a variety of properties that you can use to control the layout of your grid.</p>
+
+                <div class="grid-container3">
+                    <div class="grid-item3">Property</div>
+                    <div class="grid-item3">Description</div>
+                    <div class="grid-item3">column-gap</div>
+                    <div class="grid-item3">Specifies the gap between the columns</div>
+                    <div class="grid-item3">gap</div>
+                    <div class="grid-item3">A shorthand property for the row-gap and the column-gap properties</div>
+                    <div class="grid-item3">grid</div>
+                    <div class="grid-item3">A shorthand property for the grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and the grid-auto-flow properties</div>
+                    <div class="grid-item3">grid-area</div>
+                    <div class="grid-item3">Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties</div>
+                    <div class="grid-item3">grid-auto-columns</div>
+                    <div class="grid-item3">Specifies a default column size</div>
+                    <div class="grid-item3">grid-auto-flow</div>
+                    <div class="grid-item3">Specifies how auto-placed items are inserted in the grid</div>
+                    <div class="grid-item3">grid-auto-rows</div>
+                    <div class="grid-item3">Specifies a default row size</div>
+                    <div class="grid-item3">grid-column</div>
+                    <div class="grid-item3">A shorthand property for the grid-column-start and the grid-column-end properties</div>
+                    <div class="grid-item3">grid-column-end</div>
+                    <div class="grid-item3">Specifies where to end the grid item</div>
+                    <div class="grid-item3">grid-column-gap</div>
+                    <div class="grid-item3">Specifies the size of the gap between columns</div>
+                    <div class="grid-item3">grid-column-start</div>
+                    <div class="grid-item3">Specifies where to start the grid item</div>
+                    <div class="grid-item3">grid-gap</div>
+                    <div class="grid-item3">A shorthand property for the grid-row-gap and grid-column-gap properties</div>
+                    <div class="grid-item3">grid-row</div>
+                    <div class="grid-item3">A shorthand property for the grid-row-start and the grid-row-end properties</div>
+                    <div class="grid-item3">grid-row-end</div>
+                    <div class="grid-item3">Specifies where to end the grid item</div>
+                    <div class="grid-item3">grid-row-gap</div>
+                    <div class="grid-item3">Specifies the size of the gap between rows</div>
+                    <div class="grid-item3">grid-row-start</div>
+                    <div class="grid-item3">Specifies where to start the grid item</div>
+                    <div class="grid-item3">grid-template</div>
+                    <div class="grid-item3">A shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties</div>
+                    <div class="grid-item3">grid-template-areas</div>
+                    <div class="grid-item3">Specifies how to display columns and rows, using named grid items</div>
+                    <div class="grid-item3">grid-template-columns</div>
+                    <div class="grid-item3">Specifies the size of the columns, and how many columns in a grid layout</div>
+                    <div class="grid-item3">grid-template-rows</div>
+                    <div class="grid-item3">Specifies the size of the rows in a grid layout</div>
+                    <div class="grid-item3">row-gap</div>
+                    <div class="grid-item3">Specifies the gap between the grid rows</div>
+                </div>         
+        </div>
+    </body>
+</html>

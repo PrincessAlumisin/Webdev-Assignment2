@@ -1,0 +1,67 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, rgb(124, 19, 71), rgb(1, 1, 57));
+}
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.img {
+    width: 35px;
+    align-self: baseline;
+}
+div {
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+h2 {
+    color: white;
+}
+p {
+    text-indent: 50px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+span {
+    background-color: black;
+}
+.a {
+    display: inline;
+    color: blue;
+}
+.b {
+    display: block;
+    color: blue;
+}
+.c {
+    display: inline-block;
+    width: 140px;
+    height: 100px;
+    color: blue;
+}
+.d {
+    display: none;
+    width: 140px;
+    height: 100px;
+    color: blue;
+}
+.e {
+    display: flex;
+    color: blue;
+}
+.f {
+    display: inherit;
+    color: blue;
+}
+.g {
+    display: initial;
+    color: blue;
+}
+.h {
+    display: flex;
+    color: blue;
+}

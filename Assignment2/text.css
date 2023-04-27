@@ -1,0 +1,65 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, rgb(124, 19, 71), rgb(1, 1, 57));
+}
+.img {
+    width: 35px;
+    align-self: baseline;
+}
+div {
+border: 2px solid gray;
+padding: 8px;
+border-radius: 15px;
+margin: 30px;
+}
+h1 {
+text-align: center;
+text-transform: uppercase;
+color: white;
+}
+p {
+text-indent: 50px;
+text-align: center;
+letter-spacing: 1px;
+color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+.t-col {
+    color: orange;
+}
+.one {
+    text-decoration: overline;
+}
+.two {
+    text-decoration: line-through;
+}
+.three {
+    text-decoration: underline;
+}
+.four {
+    text-decoration: overline underline;
+}
+.align-one {
+    text-align: center;
+}
+.align-two {
+    text-align: left;
+}
+.align-three {
+    text-align: right;
+}
+.align-four {
+    text-align: justify;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
